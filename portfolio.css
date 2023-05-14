@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #ffb0fe;
+  --secondary-color: #ffecd3;
   --heading-font-family: "Source Serif 4", serif;
 
   --default-font-family: "Ledger", serif;
@@ -47,5 +47,5 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2;
-  font-size: 24px;
+  font-size: 20px;
 }
