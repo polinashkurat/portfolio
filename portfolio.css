@@ -82,3 +82,9 @@ h2 {
 .project-description {
   padding: 120px 60px;
 }
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
