@@ -11,6 +11,16 @@ body {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 60px;
+}
+p {
+  font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -21,6 +31,7 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -54,4 +65,15 @@ h6 {
   text-align: center;
   font-weight: 400;
   cursor: pointer;
+}
+h2 {
+  font-size: 60px;
+}
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-colors);
 }
