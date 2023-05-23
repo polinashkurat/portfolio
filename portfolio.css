@@ -88,18 +88,29 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
 }
-.nav li {
+nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
+  margin-left: 15px;
 }
-.nav {
+nav a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav {
   padding: 20px 0;
 }
 .logo {
-  max-width: 80px;
+  max-width: 60px;
 }
-.nav ul {
+nav ul {
   padding: 0;
   margin: 0;
 }
@@ -133,6 +144,9 @@ h6 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
 .img {
