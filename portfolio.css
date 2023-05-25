@@ -18,6 +18,9 @@ h1 {
 h2 {
   font-size: 60px;
 }
+h4 {
+  font-size: 46px;
+}
 p {
   font-size: 18px;
   font-weight: normal;
@@ -126,6 +129,42 @@ nav ul {
 .project-desciption {
   padding: 120px 60px;
 }
+footer {
+  margin: 40px;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: azure;
+  background-color: var(--branding-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-size: 23px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -133,6 +172,9 @@ nav ul {
   }
   h2 {
     font-size: 43px;
+  }
+  h4 {
+    font-size: 25px;
   }
   .hero {
     padding: 80px 20px;
@@ -154,7 +196,4 @@ nav ul {
   border-radius: 10px;
   display: block;
   margin: 30px auto;
-}
-#contactt {
-  color: var(--branding-color);
 }
